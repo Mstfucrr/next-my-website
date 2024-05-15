@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../../../styles/globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
     title: "Next.js Internationalization Example",
@@ -27,6 +28,7 @@ export default async function LocaleLayout({
         <html lang={locale}>
             <body cz-shortcut-listen="true">
                 <NextIntlClientProvider messages={messages}>
+                    <Navbar />
                     {children}
                 </NextIntlClientProvider>
             </body>

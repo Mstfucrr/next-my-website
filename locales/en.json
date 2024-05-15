@@ -1,0 +1,9 @@
+{
+    "Index": {
+        "title": "Hello world!"
+    },
+    "About": {
+        "title": "About us",
+        "content": "This is a simple example of a single"
+    }
+}

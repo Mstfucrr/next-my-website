@@ -1,9 +1,15 @@
 {
     "Index": {
-        "title": "Merhaba Dünya"
+        "title": "Merhaba Dünya!",
+        "aboutLink": "Hakkında"
     },
     "About": {
-        "title": "Hakkında",
-        "content": "Bu bir örnek uygulamadır."
+        "title": "Hakkımızda",
+        "content": "Bu bir örnek uygulamadır.",
+        "backLink": "Geri dön"
+    },
+    "navItems": {
+        "home": "Anasayfa",
+        "about": "Hakkımızda"
     }
 }

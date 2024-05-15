@@ -1,9 +1,15 @@
 {
     "Index": {
-        "title": "Hello world!"
+        "title": "Hello world!",
+        "aboutLink": "About"
     },
     "About": {
         "title": "About us",
-        "content": "This is a simple example of a single"
+        "content": "This is a simple example of a single",
+        "backLink": "Go Back"
+    },
+    "navItems": {
+        "home": "Home",
+        "about": "About"
     }
 }
